@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" href="public/nubes.png" >
+    
+</head>
+<body>
+    
+    <script src="/scripts/script.js"></script>
+    <nav class="nav-main">
+            <!-- marca/brand -->
+            <img src="/public/brand-weather.png" alt="brand-cloudy" class="nav-brand"> 
+            <h2>Weather APP</h2> 
+    </nav>
+    <div class="container">
+        <div class="main">
+            <h2>Consulta el Clima</h2>
+            <input type="text" id="cityInput" placeholder="Ingresa una ciudad">
+            <button onclick="getWeather()">Buscar</button>
+            <div class="weather-info" id="weatherInfo"></div>
+        </div>
+    </div>
+    
+    <footer>
+
+    </footer>    
+</body>
+</html>
